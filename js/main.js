@@ -9,15 +9,7 @@ function sendMail(){
     })
 } 
 
-// jQuery funkcija so koja se otkriva i sokriva text
 
-/*$("p").hide();
-$("#btn_hide").click(function(){
-    $(".content").slideToggle();    
-})
-$("#btn_show").click(function(){
-    $(".content2").slideToggle();    
-})*/
 document.getElementById("span1").addEventListener('click',function(){
     document.getElementById("holder").classList.toggle("active");
 });
